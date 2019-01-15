@@ -1,3 +1,10 @@
+/*
+ *  BOJ 11725. 트리의 부모 찾기
+ *
+ *  일반적인 트리 문제처럼 트리를 순회하면서 이전 노드를 parent로 저장해주었습니다.
+ *  이후, 한 번에 인덱스 순서대로 모두 parent를 출력해주면 되는 것이었습니다.
+ */
+
 #include <cstdio>
 #include <vector>
 using namespace std;
@@ -8,7 +15,7 @@ int parent[100050];
 void solve(int node, int pa) {
   for (int i : edges[node]) {
     if (i == pa) continue;
-    parent[i] = node;
+    parent[i] = node;     // child의 parent로 자신을 저장.
     solve(i, node);
   }
 }
