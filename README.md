@@ -47,6 +47,7 @@
    - **1주차** : Tree
    - **2주차** : Dynamic Programming
    - **3주차** : Parsing & Implementation
+   - **4주차** : Mathematics
 
 
 
