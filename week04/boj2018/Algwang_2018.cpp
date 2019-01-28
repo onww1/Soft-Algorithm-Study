@@ -23,9 +23,9 @@ int main(void){
     int count=0;
     
     for(int i=1;i<=n/2+1;i++){
-        ll temp=((ll)i*(ll)(i+1))/2; // 현재까지 수의 합
-        if(temp-n>=0){ // 현재까지 수의 합이 주어진 수 n보다 크거나 같다면
-            ll myT=(ll)sqrt((temp-n)*2); // 나머지가 n*(n+1)/2를 만족하는 자연수 n이 존재하는지 확인합니다.
+        ll temp=((ll)i*(ll)(i+1))/2; // 1부터 i까지의 합
+        if(temp-n>=0){ // 합이 주어진 수 n보다 크거나 같다면
+            ll myT=(ll)sqrt((temp-n)*2); // 차이가 n*(n+1)/2를 만족하는 자연수 n이 존재하는지 확인합니다.
             if(1ll*myT*(myT+1)==1ll*(temp-n)*2){ // 만약 존재한다면 count++
                 count++;
             }
