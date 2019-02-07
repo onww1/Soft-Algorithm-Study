@@ -14,5 +14,7 @@
 
 ### 7. 징검다리 				([BOJ11561](https://boj.kr/11561))
 
+### 8. Predictable Queue 	([BOJ16510](https://boj.kr/16510))
+
 
 
