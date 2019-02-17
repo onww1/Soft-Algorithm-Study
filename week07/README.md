@@ -40,3 +40,15 @@
 
 ### 20. XOR 						([BOJ12844](https://boj.kr/12844))
 
+### 21. 음주 코딩						([BOJ5676](https://boj.kr/5676))
+
+### 22. 공장 							([BOJ7578](https://boj.kr/7578))
+
+### 23. 스위치 						([BOJ1395](https://boj.kr/1395))
+
+### 24. 화성 지도 						([BOJ3392](https://boj.kr/3392))
+
+### 25. 소풍 							([BOJ1242](https://boj.kr/1242))
+
+### 26. LRH 식물 						([BOJ2934](https://boj.kr/2934))
+
