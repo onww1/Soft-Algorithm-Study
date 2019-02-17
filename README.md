@@ -53,6 +53,7 @@
    - **4주차** : Mathematics
    - **5주차** : Binary Search & Parametric Search
    - **6주차** : Dynamic Programming 2
+   - **7주차** : Segment Tree & Fenwick  Tree(BIT)
 
 
 
