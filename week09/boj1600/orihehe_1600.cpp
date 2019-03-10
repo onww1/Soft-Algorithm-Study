@@ -1,6 +1,8 @@
 ﻿/*
 BOJ 1600 - 말이 되고픈 원숭이
-https://www.acmicpc.net/problem/1600
+
+시간복잡도 : O(N*M*K)
+공간복잡도 : O(N*M*K)
 
 visited배열을 x,y,k로 설정하고 bfs를 돌리면 됩니다!
 bfs과정에서 k횟수가 남아있다면 말처럼 이동을 추가로 해주고 큐에 넣어줍니다.
